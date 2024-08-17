@@ -23,7 +23,7 @@ The overall hardware design of the CVM requires several components such as the
 OV7670, STM32F407 and pull up resistors which are connected to one another as 
 shown below.
 
-![image](https://github.com/user-attachments/assets/8874c9a0-2394-45ca-af80-6772b13edd87)
+![image](https://github.com/user-attachments/assets/794f17fb-1f46-4011-b170-0784bb51dbcd)
 
 By default, the main task that is executed by the CVM after its initialisation is the 
 streaming of unprocessed images via its USART peripheral. The selection of the 
@@ -32,17 +32,17 @@ its USART RX pin, which subsequently sets a flag that determines which algorithm
 to run. Table 3.4 below summarises the different commands, the flags that is set and 
 the task that is run as a result. 
 
-![image](https://github.com/user-attachments/assets/c2492afb-b210-49d3-83c6-aecf6170fdbe)
+![image](https://github.com/user-attachments/assets/b7563fee-52ad-4c4e-85cf-adf6769dd062)
 
 To display the frames captured by the system, a readily available Python program written by Fabian Kung (https://github.com/fabiankung) was used.
 
 The developed system is able to capture and process images with the following timing requirements:
 
-![image](https://github.com/user-attachments/assets/ad42a4b3-7275-43bf-8241-0c7d1d24a260)             ![image](https://github.com/user-attachments/assets/a453bfab-8872-4dcf-9289-e9ae39da463c)
+![image](https://github.com/user-attachments/assets/2fb0f865-2ac5-4673-bb36-5f0b2b51ce8c)             ![image](https://github.com/user-attachments/assets/95e1d5b9-1e31-4add-9aa2-a348b3f0e059)
 
 <ins>Sample Captures</ins>
 
-![image](https://github.com/user-attachments/assets/ed1d1e3e-ebc1-46e4-8c96-f02a07d3b104)
+![image](https://github.com/user-attachments/assets/8ff83710-7801-4b8c-acad-66c668c7ee8a)
 
 <ins>Upcoming Releases</ins>
 
