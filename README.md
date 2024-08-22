@@ -6,11 +6,13 @@ https://github.com/a5ifshaik/MVM0.1/blob/main/MVM0.1_Slides.pdf
 
 ## Important References
 The development of this project would not have been made possible without past developers who have provided resources and guidance. You can find some of these resources here:
+
 https://supuntharanga.blogspot.com/2014/04/stm32f4-discovery-board-ov7660-or.html
 https://embeddedprogrammer.blogspot.com/2012/07/hacking-ov7670-camera-module-sccb-cheat.html
 
 ## Block Diagram
 <p align="justify">The overall hardware design of the CVM requires several components such as the OV7670, STM32F407 and pull up resistors which are connected to one another as shown below.</p>
+
 ![image](https://github.com/user-attachments/assets/794f17fb-1f46-4011-b170-0784bb51dbcd)
 
 ## System Functions
